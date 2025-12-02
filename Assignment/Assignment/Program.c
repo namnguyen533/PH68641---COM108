@@ -1,31 +1,12 @@
 // CConsoleApplication.c : file nay chua 'main' function. 
 // Chuong trinh phan mem Bat dau thuc thi & Ket thuc o day.
+
 #include <stdio.h>
-#include <math.h>
-void Test()
-{
-int y[4] = { 1, 2, 3, 4 };
-y[2] = 9;
-for (int i = 0; i<5; i++)
-	printf("%d ", y[i]);
-}
+
 int main()
-	{
-	char ten[50];
-	printf("Nhap ten cua ban: \n");
-	//scanf_s("%s", &ten)
-	puts("ten: ");
-	//printf("ten cua ban la: %s", ten);
-	gets(ten);
-	printf("ten cua ban la %s", ten);
+{
+    printf("Hi there!\n");
 }
-
-
-
-
-
-
-
 
 // Debug/Run chuong trinh: bam "F5" hoac "Debug > Start Debugging" tren menu
 
@@ -39,4 +20,5 @@ int main()
 //      chon "File > Open > Project" va chon file *.sln
 //      Co the xem thu muc project, noi luu file *.sln bang cach
 //      bam phim chuot phai vao "Solution" > chon "Open Folder in File Explorer"
+
 // GV: AnhTT184
