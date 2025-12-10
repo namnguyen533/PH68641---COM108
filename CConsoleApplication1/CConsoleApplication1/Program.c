@@ -20,7 +20,7 @@ void thongTinMonHoc()
 	printf("ma mon hoc %d\n", maMon);
 	printf("so tin chi %d\n", tinChi);
 	printf("hoc phi %d VND\n", hocPhi);
-
+	
 
 }
 void tinhTongSoLe()
@@ -52,10 +52,10 @@ int main()
 		}
 
 
+		
 
-
-	} while (chon != 0);
-
+	}	while (chon != 0);
+	
 }
 
 
